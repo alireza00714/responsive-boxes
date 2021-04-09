@@ -9,15 +9,30 @@ html,body{
     height: 100%;
 }
 
-
+/* container */
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
     flex-wrap: wrap;
+    margin: 10px;
+    width: 45%;
+    height: 55%;
+}
+
+/* content */
+.content{
+    width: 150px;
+    height: 200px;
+    background-color: #FE5F55;
+    border-radius: 10px;
 }
