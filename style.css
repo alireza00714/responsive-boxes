@@ -29,34 +29,11 @@ body {
   height: 55%;
 }
 
-/* container - Mobile */
-@media screen and (max-width: 430px) {
-    .main{
-        height: max-content;
-    }
-  .container {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    height: 100%;
-    width: 100%;
-  }
-}
-
 /* content */
 .content {
-  width: 300px;
-  height: 400px;
+  width: 200px;
+  height: 150px;
   background-color: #fe5f55;
   border-radius: 10px;
   margin: 0 0 20px 0;
 }
-
-/* content - Mobile*/
- @media screen and (max-width: 430px) {
-  .content {
-    width: 100%;
-    height: 300px;
-    margin: 10px 0;
-  }
-} 
