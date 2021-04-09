@@ -5,20 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Document</title>
   </head>
   <body>
     <div class="main">
       <div class="container">
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
-        <div class="content"></div>
+        <div class="content" data-aos="fade-right"></div>
+        <div class="content" data-aos="zoom-in"></div>
+        <div class="content" data-aos="zoom-in-left"></div>
+        <div class="content" data-aos="fade-up" data-aos-duration="3000"></div>
+        <div
+          class="content"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        ></div>
+        <div
+          class="content"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        ></div>
+        <div
+          class="content"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-center"
+        ></div>
+        <div
+          class="content"
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+        ></div>
       </div>
     </div>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
